@@ -1,3 +1,4 @@
+package br.com.ocjp6.exemplos;
 import org.junit.Test;
 
 public class EXmplos {
