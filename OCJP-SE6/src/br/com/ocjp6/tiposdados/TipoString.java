@@ -16,7 +16,7 @@ public class TipoString {
 		System.out.println(val.equals(val));
 		System.out.println(val == compara);
 		System.out.println(novo == compara);
-		System.out.println( novo.compareTo(compara) );
+		System.out.println( novo.compareTo(compara) );// se as strinf for iguas devolve 0
 		System.out.println(novo.compareTo(val));
 		
 		String str = "Olá onde você está ?";

@@ -7,5 +7,5 @@ public class Test6 {
 		double d = 100.00;
 		System.console().format("%d * %1.1f", i,d);
 	}
-	//https://learning.whizlabs.com/mod/quiz/review.php?attempt=754809&showall=1
+	//https://learning.whizlabs.com/mod/quiz/review.php?attempt=754809&showall=1 
 }
