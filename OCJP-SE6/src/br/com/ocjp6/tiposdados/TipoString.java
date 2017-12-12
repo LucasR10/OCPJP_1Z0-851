@@ -42,7 +42,9 @@ public class TipoString {
 		System.out.println( posicao );
 		System.out.println( ultima);
 		System.out.println( vazio);
+		System.out.println( str.charAt(36) );//java.lang.StringIndexOutOfBoundsException: String index out of range: 36
 		
+		;
 		
 	}
 
