@@ -1,6 +1,5 @@
 package br.com.alura;
 
-import java.time.temporal.Temporal;
 
 public class Semaforo extends Thread {
 	
