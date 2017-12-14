@@ -44,7 +44,7 @@ public class TDDRunnable {
 		
 		@Test
 		public void question_3(){
-			//** synchronized é usado como palavra chave antes: metodos de clas, bloco de codigo emqualquer metodo, instancia de metodos.
+			
 			
 			MyThread a = new MyThread("A");
 			MyThread b = new MyThread("B");
@@ -55,6 +55,38 @@ public class TDDRunnable {
 			
 			
 			
+		}
+		
+		public void question_4_text() {
+			//** synchronized é usado como palavra chave antes: metodos de clas, bloco de codigo emqualquer metodo, instancia de metodos.
+		}
+		
+		@Test
+		public void question_5(){
+		
+			
+		  Runnable runnable = new Runnable() {
+			
+			@Override
+			public void run() {
+				
+				String str = "hello";
+				synchronized (str) {
+					System.out.println(Thread.currentThread().getName() );
+					try {
+						Thread.sleep(500);
+					} catch (InterruptedException e) {
+						e.printStackTrace();
+					}
+					System.out.println(Thread.currentThread().getName() );
+				}
+				
+			}
+		};
+			
+			 new Thread(runnable,"A").start();
+			 new Thread(runnable,"B").start();
+		
 		}
 		
 		
