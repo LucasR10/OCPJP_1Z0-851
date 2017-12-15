@@ -1,0 +1,2 @@
+False - As classes de membros do pacote podem ser declaradas estáticas.
+As classes anônimas não podem ser declaradas estáticas.
