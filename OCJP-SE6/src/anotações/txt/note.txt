@@ -1,2 +1,8 @@
 False - As classes de membros do pacote podem ser declaradas estáticas.
 As classes anônimas não podem ser declaradas estáticas.
+
+O Problema encontrado.
+
+Quando falamos que você não deve utilizar o == para comparar Wrappers, é porque não deve mesmo e continuamos afirmando isso.
+Ainda afirmamos que quando você realizar esse tipo de comparação receberá FALSE, visto que ele compara a referência em memória do objeto.
+O problema é que se você fizer o teste da Listagem 8 verá que ele retornará verdadeiro.
