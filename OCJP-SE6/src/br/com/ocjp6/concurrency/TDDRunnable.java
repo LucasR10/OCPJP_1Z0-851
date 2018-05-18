@@ -43,14 +43,14 @@ public class TDDRunnable {
 		
 		
 		@Test
-		public void question_3(){
+		public void question_3() throws InterruptedException{
 			
 			
 			MyThread a = new MyThread("A");
 			MyThread b = new MyThread("B");
 			
 			b.start();
-			Thread.yield();
+			Thread.sleep(3000L);
 			a.run();
 			
 			
