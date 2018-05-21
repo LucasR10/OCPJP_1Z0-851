@@ -17,6 +17,12 @@ public class VariavesDeAcessoEModificadoresDeAcesso {
 		final String variavel_com_modificador_de_acesso_final;//
 
 	}
+	
+	
+	public static void main(String[] args) {
+		int k = 5/0;
+		System.out.println(k);
+	}
 }
 
 /***
